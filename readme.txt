@@ -1,14 +1,19 @@
 
 /******************************
-* YouTube Repeater for Chrome *
+* Window clipper for Chrome *
 ******************************/
 
-YouTubeをリピートできるようにするクロームエクステンションです。
+Chromeのウィンドウを指定した要素の大きさに合わせてリサイズします。
+
+拡張機能のアイコンをクリックすると、要素選択モードになります。
+リサイズしたい大きさの要素の上でクリックすると、その要素の大きさにWindowがリサイズされます。
+
+要素選択モードを中断したい場合はもう一度拡張機能のアイコンをクリックしてください。
+
+動画等を見ている時に、ウィンドウの大きさを動画に合わせたい時等、簡単に合わせることができます。
+
+動画以外の要素（写真や歌詞等）にも使うことができるので、ぜひ試してみてください！
+
 
 以下のURLからインストールできます。
-https://chrome.google.com/webstore/detail/youtube-repeater/lnpobfknjaodigeaeiipmadlelgccfdo
-
-参考
-Youtube JavaSript Player APIリファレンス
-https://developers.google.com/youtube/js_api_reference?hl=ja
-
+https://chrome.google.com/webstore/detail/window-clipper/ncagmofcgojcjglklmaokleaehkppgki

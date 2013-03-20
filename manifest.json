@@ -1,22 +1,21 @@
 {
-  "name":"YouTube Repeater",
+  "name":"Window Clipper",
   "version":"1.0.1",
   "manifest_version":2,
-  "description":"Youtubeをリピート再生する。",
+  "description":"html中のある要素にWindowの大きさを変える。",
   "background":{
     "scripts":[
       "background.js"
     ]
   },
-  "page_action":
-  {
+  "browser_action":{
     "default_icon":"icon.png"
   },
   "content_scripts":[
     {
       "matches":[
-        "http://www.youtube.com/*",
-        "https://www.youtube.com/*"
+        "http://*/*",
+        "https://*/*"
       ],
       "js":["contentscript.js"],
       "run_at":"document_end"
@@ -28,9 +27,7 @@
   },
   "permissions":[
     "tabs",
-    "http://www.youtube.com/*",
-    "https://www.youtube.com/*"
+    "http://*/*"
   ]
 }
 
-    
